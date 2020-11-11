@@ -7,10 +7,21 @@
     <groupId>dk.mwncksb</groupId>
     <artifactId>LSD_CASE3-Backend</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <repositories>
+        <repository>
+            <id>lsdckmwn-lsdcontract</id>
+            <url>https://packagecloud.io/lsdckmwn/lsdcontract/maven2</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
     <dependencies>
         <dependency>
-            <groupId>groupId</groupId>
+            <groupId>dk.teamc</groupId>
             <artifactId>LSD-Case3</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
